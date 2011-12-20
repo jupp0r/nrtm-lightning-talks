@@ -1,0 +1,5 @@
+# ZSH awesomeness lightning talk
+# author: Jupp Mueller <jupp0r@gmail.com>
+
+# show zsh version, should be > 4.3.9 for all the awesomeness shown here
+zsh --version
