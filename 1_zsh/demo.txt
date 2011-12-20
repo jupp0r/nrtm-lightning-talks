@@ -5,6 +5,10 @@
 # show zsh version, should be > 4.3.9 for all the awesomeness shown here
 zsh --version
 
+##############
+# Completion #
+##############
+
 # completion revisited
 ls -<TAB><TAB><DOWN><ENTER>
 ls <TAB><TAB><ENTER><TAB>
@@ -16,8 +20,40 @@ ssh -<TAB and play around>
 # yields lctp-gruppe1  lctp-gruppe2  lctp-gruppe3
 ssh gruppe<TAB><TAB>
 
+# completion is customizable and there are plugins for everything (manpages, git, svn, apt, ...)
+# smart, too
+brew install mpeg<TAB><TAB>
+
+# does not expand where undesirable
+# bash would expand the ~ here, which would clobber our command
+mv ~/Lib<TAB>
+
+###########
+# History #
+###########
+
+# a lot of this is really well explained in 'man zshexpn'
+
+# command replacement
+!?emac<TAB>
+
+# all of this (also the rest can be undone)
+# note the emacs bindings
+<CMD + />
+
+# ever had this problem
+cp ~/Library/Application\ Support/Evom/libx264-evom_low.ffpreset !#$<TAB>
+
+####################
+# Variable Editing #
+####################
+
 # much nicer variable editing
 vared PATH
+
+#################################
+# Interactive Shell Programming #
+#################################
 
 # for loops dont need ; or \
 for i in `seq 1 10'
@@ -25,6 +61,10 @@ do
 echo "${i}"
 sleep 0.1
 done
+
+###########
+# The End #
+###########
 
 # fun in the end
 # to set up: 
