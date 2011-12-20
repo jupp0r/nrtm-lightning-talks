@@ -2,8 +2,17 @@
 # author: Jupp Mueller <jupp0r@gmail.com>
 # find my .zshrc settings at https://github.com/jupp0r/oh-my-zsh
 
+##########
+# Basics #
+##########
+
 # show zsh version, should be > 4.3.9 for all the awesomeness shown here
 zsh --version
+
+# notice prompt
+# jupp@lynx-omega ~  ᐅ _                            < 15:26:14 12/20/11 > 
+# $PROMPT (we know that one) and additional $RPROMPT, hides when necessary
+# https://github.com/robbyrussell/oh-my-zsh (Themes, Plugins, etc)
 
 ##############
 # Completion #
