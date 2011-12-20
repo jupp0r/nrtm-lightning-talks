@@ -3,3 +3,14 @@
 
 # show zsh version, should be > 4.3.9 for all the awesomeness shown here
 zsh --version
+
+# much nicer variable editing
+vared PATH
+
+# for loops dont need ; or \
+for i in `seq 1 10'
+do
+echo "${i}"
+sleep 0.1
+done
+
