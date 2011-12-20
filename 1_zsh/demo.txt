@@ -90,7 +90,20 @@ cd ~/Documents/github/nrtm-lightning-talks
 # create new branch (still clean)
 git checkout -b new
 
+# touch file
+echo "test" > new-feature.txt
 
+# see new symbol, x for dirty, star for untracked files
+git status
+
+# add file, using tab completion
+git add <TAB>
+
+# notice the + sign, commit now
+git commit -m 'Started new feature'
+
+# all clean, back to master
+git checkout mas<TAB>
 
 ####################
 # Variable Editing #
