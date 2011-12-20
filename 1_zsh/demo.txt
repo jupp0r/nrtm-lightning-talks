@@ -1,8 +1,20 @@
 # ZSH awesomeness lightning talk
 # author: Jupp Mueller <jupp0r@gmail.com>
+# find my .zshrc settings at https://github.com/jupp0r/oh-my-zsh
 
 # show zsh version, should be > 4.3.9 for all the awesomeness shown here
 zsh --version
+
+# completion revisited
+ls -<TAB><TAB><DOWN><ENTER>
+ls <TAB><TAB><ENTER><TAB>
+
+# reads ssh .config
+ssh -<TAB and play around> 
+
+# how was that host called again?
+# yields lctp-gruppe1  lctp-gruppe2  lctp-gruppe3
+ssh gruppe<TAB><TAB>
 
 # much nicer variable editing
 vared PATH
@@ -14,3 +26,9 @@ echo "${i}"
 sleep 0.1
 done
 
+# fun in the end
+# to set up: 
+# autoload -U tetris
+# zle -N tetris
+# bindkey '^T' tetris
+^T
