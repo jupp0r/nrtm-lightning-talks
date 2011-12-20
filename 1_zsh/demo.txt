@@ -10,7 +10,9 @@ zsh --version
 ##############
 
 # completion revisited
+# program must support --help
 ls -<TAB><TAB><DOWN><ENTER>
+# menu for everything
 ls <TAB><TAB><ENTER><TAB>
 
 # reads ssh .config
@@ -24,6 +26,9 @@ ssh gruppe<TAB><TAB>
 # smart, too
 brew install mpeg<TAB><TAB>
 
+# you don't believe me?
+kill <TAB>
+
 # does not expand where undesirable
 # bash would expand the ~ here, which would clobber our command
 mv ~/Lib<TAB>
@@ -32,17 +37,60 @@ mv ~/Lib<TAB>
 # History #
 ###########
 
+# all of this (also the rest can be undone)
+# note the emacs bindings
+<CMD + />
+
 # a lot of this is really well explained in 'man zshexpn'
 
 # command replacement
 !?emac<TAB>
 
-# all of this (also the rest can be undone)
-# note the emacs bindings
-<CMD + />
+# we want to use another editor
+joe !?emac?:*<TAB>
 
 # ever had this problem
 cp ~/Library/Application\ Support/Evom/libx264-evom_low.ffpreset !#$<TAB>
+
+# even better
+cp ~/Library/Application\ Support/Evom/libx264-evom_low.ffpreset !#$.bak<TAB>
+
+# verify and show modification completion
+ls !!:1:<TAB>h
+
+# show command substitution
+ps bux
+# oops, wrong args
+^bux^aux^<TAB>
+
+# history is shared
+# -> open new terminal
+history
+<CTRL-D>
+
+##########
+# Hashes #
+##########
+
+# define nice aliases
+hash -d beleg=~/uni/grosser_beleg
+
+# also shortens prompt
+~beleg
+
+#######
+# Git #
+#######
+
+# enter some git repo
+cd ~/Documents/github/nrtm-lightning-talks
+
+# see that branch 'master' is clean
+
+# create new branch (still clean)
+git checkout -b new
+
+
 
 ####################
 # Variable Editing #
