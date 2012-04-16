@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>TMUX NRTM Lightning Talk</title>
+    <link href="impress-demo.css" rel="stylesheet" />
+    <script src="jquery.min.js"></script>
+    <script src="countup.js"></script>
+  </head>
+  <body>
+    <div id="impress">
+      <div id="title" class="step" data-x="-1000" data-y="1000"
+    data-rotate="90" data-scale="3">
+        <h1>tmux</h1>
+        <h2>mouse free development</h2>
+      </div>
+      <div id="features" class="step" data-x="-1000" data-y="2000" data-rotate="90">
+        <ul>
+          <li><b>T</b>erminal <b>MU</b>ltiple<b>X</b>er</li>
+          <li>multiple terminals in single screen</li>
+          <li>detach from screen</li>
+          <li>later reattach</li>
+        </ul>
+      </div>
+      <div id="screen" class="step" data-x="0" data-y="1000">
+        <q>GNU Screen is widely acknowledged as being a largely dead
+        project, full of bugs, with spaghetti code in the source that
+        many consider unworthy of the effort of sorting out. This
+        state of affairs discourages improvements, advancements, or
+        simple bug fixing.<sup>*</sup></q>
+        <span class="footnote"><sup>*</sup>techrepublic.com, quoting
+        GNU Project</span>
+      </div>
+      <div id="screen-2" class="step" data-x="0" data-y="0">
+        <ul>
+          <li>screen's most recent version is 4.0.3, released
+          in <b>december 2005</b></li>
+          <li>that's been <span id="since"></span>!
+        </ul>
+      </div>
+      <div id="arch" class="step" data-x="-1000" data-y="-1000" data-rotate="90">
+        <h2>time for a rewrite</h2>
+        <ul>
+          <li>client-server model</li>
+          <li>vertical splitting</li>
+          <li>UTF-8 and 256 colors</li>
+          <li>pair programming</li>
+        </ul>
+      </div>
+      <div id="arch-screen" class="step screen" data-x="-10000" data-y="-10000" data-z="-300000">
+        <img src="tmux1.png" />
+      </div>
+      <div id="config" class="step" data-x="-2000" data-y="-1000">
+        <ul>
+          <li>human-<span class="big">readable</span> configuration file</li>
+          <li>ever looked at your .screenrc?</li>
+        </ul>
+      </div>
+      <div id="config-screen" class="step screen" data-x="-20000"
+      data-y="-10000" data-z="-300000">
+        <img src="tmux_conf.png" />
+      </div>
+      <div id="splitting" class="step" data-x="-2000" data-y="0">
+        <ul>
+          <li>resizable horizontal and vertical(!!) splitting</li>
+          <li>people are trying to add vertical splitting to screen
+          for 5 years now</li>
+        </ul>
+      </div>
+      <div id="scriptable" class="step" data-x="-2000" data-y="1000">
+        <ul>
+          <li>scriptable</li>
+          <li>plenty of 3rd-party tools</li>
+          <li>few dependencies (libevent + ncurses)</li>
+          <li>emacs + vi keybindings</li>
+          <li>multiple paste buffers</li>
+        </ul>
+      </div>
+      <div id="programming" class="step" data-x="-2000"
+           data-y="2000">
+        <h2>development</h2>
+        <ul>
+          <li>people switched from IDEs to editors</li>
+          <li>now switching from gui to console</li>
+          <li>MacVim &#8594; vim, gVim &#8594; vim</li>
+          <li>Aquamacs &#8594; emacs, gEmacs &#8594; emacs</li>
+        </ul>
+      </div>
+      <div id="reasons" class="step" data-x="-2000"
+           data-y="3000">
+        <h2>wtf?</h2>
+        <ul>
+          <li>modern languages don't need IDE</li>
+          <li>web dev console-heavy, rails/node</li>
+          <li>remote workers, mobile connections</li>
+          <li>using <span class="big">only</span> keyboard is frickin fast!</li>
+          <li>any computer (or phone) does the job</li>
+          <li>agile practices and peer programming</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+    </script>
+    <script src="impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>

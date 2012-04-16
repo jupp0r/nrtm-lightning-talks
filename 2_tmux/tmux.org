@@ -1,0 +1,6 @@
+* TMUX presentation
+** Links
+*** Screen vs TMUX
+http://www.techrepublic.com/blog/opensource/is-tmux-the-gnu-screen-killer/1901
+*** impressive.js
+http://bartaz.github.com/impress.js
