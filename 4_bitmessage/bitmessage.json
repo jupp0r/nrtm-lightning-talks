@@ -1,0 +1,569 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 63,
+          "y": 253,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\">Bitmessage</div><font><div style=\"text-align: center;\">Email done Better?</div></font>",
+          "size": 109,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 8,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 700,
+      "y": 420
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 186,
+          "y": 67,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">Installation (Ubuntu)</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 108,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\">sudo add-apt-repository ppa:fuzzgun/pybitmessage<br></font>sudo apt-get install pybitmessage<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 318,
+          "y": 160,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\">You should do this now :)</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 228,
+          "y": 394,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">Installation (OS X)</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 82,
+          "y": 513,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\">https://bitmessage.org/download/osx/Bitmessage.dmg</font>",
+          "selected": false
+        }
+      ],
+      "z": -5,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "x": 508,
+      "y": 581
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 197,
+          "y": 13,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Problems of E-Mail</font>",
+          "size": 76,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 32,
+          "y": 258,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font>Spam<br>Authenticity<br>Secrecy<br>Still tons of Metadata<br>User friendlyness<br></font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 590,
+          "y": 261,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font>Spamassassin<br>PGP<br>PGP<br>?<br>?<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 756,
+      "y": 581
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 280,
+          "y": 54,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font>Ease of use</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 138,
+          "y": 313,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font>Spamassassin</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 158,
+          "y": 568,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "PGP<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 738,
+          "y": 317,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"PressStart2P\">✓</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 733,
+          "y": 564,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"PressStart2P\">✖</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 5,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 1.57,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 1143,
+      "y": 425
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 17,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "Bitmessage",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 158,
+          "y": 201,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Lato\">Messaging P2P Network<br></font>(Theoretically) Perfect Anonymity<br>Everything is encrypted<br>Everything is signed<br>Proof-of-Work prevents spam<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 167,
+          "y": 519,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">My parents can use it!</font><br>",
+          "selected": false
+        }
+      ],
+      "z": -12,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 494,
+      "y": 250
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 192,
+          "y": 46,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">How is this possible?</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 22,
+          "y": 248,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Lato\">Everybody gets everything<br>Every message is encrypted<br><br>Which message is mine?<br>The one that I'm able to decyrypt!<br><br>So everybody tries to decrypt all the messages?<br>Well not quite, that wouldn't scale<br></font>",
+          "selected": false
+        }
+      ],
+      "z": -12,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 799,
+      "y": 241
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 167,
+          "y": 31,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font face=\"Lato\">Scalability hacks</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 168,
+          "y": 296,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Lato\">Network divided into streams<br><br>Messages deleted after 2 days<br>Need to resend if no ack received<br></font>",
+          "selected": false
+        }
+      ],
+      "z": -12,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 1081,
+      "y": 240
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 278,
+          "y": 37,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">More Features</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 249,
+          "y": 151,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Lato\">Multiple identities<br>Subscriptions<br>Blacklisting / Whitelisting<br></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IZ7fIqD.png",
+          "type": "Image",
+          "x": 217,
+          "y": 345,
+          "scale": {
+            "x": 0.6678043230944255,
+            "y": 0.6678043230944255,
+            "width": 587,
+            "height": 398.0113765642776
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 292,
+      "y": 329
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 339,
+          "y": 47,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">Downsides</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 224,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Lato\">No Perfect Forward Secrecy (yet)<br>Long addresses - (Namecoin helps)<br>Client ugly<br>No mobile client<br>Security audit needed (as usual)<br><br><div style=\"text-align: center;\">not really anything else, you got something?</div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": true,
+      "x": 309,
+      "y": 502
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 429,
+          "y": 84,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font face=\"Lato\">Try it</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 25,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: Lato;\">Send message to</span></div><font face=\"Lato\"><div style=\"text-align: center;\">BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 210,
+          "y": 467,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<div style=\"text-align: center;\"><font face=\"Lato\">You should get an echo back!</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -1.57,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 670,
+      "y": 413
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 339,
+        "y": 47,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 72,
+        "text": "<font face=\"Lato\">Downsides</font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 57,
+        "y": 224,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 48,
+        "text": "<font face=\"Lato\">No Perfect Forward Secrecy (yet)<br>Long addresses - (Namecoin helps)<br>Client ugly<br>No mobile client<br>Security audit needed (as usual)<br><br><div style=\"text-align: center;\">not really anything else, you got something?</div></font>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 8,
+    "selected": false,
+    "active": true,
+    "x": 309,
+    "y": 502
+  },
+  "fileName": "bitmessage",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 717.5,
+  "overviewY": 410.5
+}
